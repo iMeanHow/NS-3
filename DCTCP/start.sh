@@ -1,0 +1,25 @@
+#!/bin/sh
+(
+  # for run task
+  ./waf --run  "hw4 --K=1 --dctcp=true"
+  ./waf --run  "hw4 --K=2 --dctcp=true"
+  ./waf --run  "hw4 --K=3 --dctcp=true"
+  ./waf --run  "hw4 --K=4 --dctcp=true"
+  ./waf --run  "hw4 --K=5 --dctcp=true"
+  ./waf --run  "hw4 --K=6 --dctcp=true"
+  ./waf --run  "hw4 --K=7 --dctcp=true"
+  ./waf --run  "hw4 --K=8 --dctcp=true"
+  ./waf --run  "hw4 --K=9 --dctcp=true"
+  ./waf --run  "hw4 --K=10 --dctcp=true"
+  ./waf --run  "hw4 --K=15 --dctcp=true"
+  ./waf --run  "hw4 --K=20 --dctcp=true"
+  ./waf --run  "hw4 --K=25 --dctcp=true"
+  ./waf --run  "hw4 --K=30 --dctcp=true"
+  ./waf --run  "hw4 --K=40 --dctcp=true"
+  ./waf --run  "hw4 --K=50 --dctcp=true"
+  ./waf --run  "hw4 --K=60 --dctcp=true"
+  ./waf --run  "hw4 --K=70 --dctcp=true"
+  ./waf --run  "hw4 --K=80 --dctcp=true"
+  ./waf --run  "hw4 --K=90 --dctcp=true"
+  ./waf --run  "hw4 --K=100 --dctcp=true"
+) > output.txt
